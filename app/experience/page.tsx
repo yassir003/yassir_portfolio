@@ -127,7 +127,7 @@ export default function Experience() {
                   className="rounded-xl"
                 />
                 <div>
-                  <h3 className="text-xl font-semibold">Advanced Technician's Certificate</h3>
+                  <h3 className="text-xl font-semibold">Advanced Technician&#39;s Certificate</h3>
                   <p className="text-gray-600">Essaouira, 2023</p>
                 </div>
               </div>

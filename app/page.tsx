@@ -6,11 +6,9 @@ import { Button } from "@/components/ui/button"
 import ShimmerButton from "@/components/ui/shimmer-button";
 import Ripple from "@/components/ui/ripple";
 import OrbitingCircles from "@/components/ui/orbiting-circles";
-import { MagicCard } from "@/components/ui/magic-card";
 import ShineBorder from "@/components/ui/shine-border";
 import Particles from "@/components/ui/particles";
-import BlurFade from "@/components/ui/blur-fade";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaDatabase, FaDocker, FaGit, FaFigma, } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,} from "react-icons/fa";
 import { SiFlask, SiMongodb, SiPostgresql, SiNextdotjs } from "react-icons/si";
 import { FileDown, UserPlus, Code2, Palette, Database, ArrowRight } from 'lucide-react'
 import { useState } from 'react'
@@ -35,7 +33,7 @@ export default function Home() {
           <h1 className="text-5xl font-bold mb-2">Yassir Moulzim El Alaoui</h1>
           <p className="text-2xl text-gray-600 mb-6">
             A passionate developer with experience in creating modern web applications.
-            Explore my work and let's bring your ideas to life!
+            Explore my work and let&#39;s bring your ideas to life!
           </p>
           <div className="flex space-x-4">
             <a 
@@ -222,7 +220,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-4">Ready to Start a Project?</h2>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
           Explore my portfolio to see my past work or get in touch to discuss your next project.
-          Let's create something amazing together!
+          Let&#39;s create something amazing together!
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="/projects">
@@ -232,7 +230,7 @@ export default function Home() {
           </Link>
           <Link href="/contact">
             <Button className="flex items-center rounded-xl bg-black text-white hover:bg-black">
-              Let's Work Together <ArrowRight className="ml-2 h-4 w-4" />
+              Let&#39;s Work Together <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </div>

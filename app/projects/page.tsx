@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { useState } from 'react'
-import { ExternalLink, Github, Code2 } from 'lucide-react'
+import { ExternalLink, Github, } from 'lucide-react'
 
 export default function Projects() {
   const [hoveredImage, setHoveredImage] = useState<string | null>(null)
