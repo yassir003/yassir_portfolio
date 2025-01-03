@@ -29,7 +29,7 @@ export default function Home() {
         refresh
       />
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <span className="text-lg text-gray-600 mb-2 block">Hi, I'm</span>
+          <span className="text-lg text-gray-600 mb-2 block">Hi, I&#39;m</span>
           <h1 className="text-5xl font-bold mb-2">Yassir Moulzim El Alaoui</h1>
           <p className="text-2xl text-gray-600 mb-6">
             A passionate developer with experience in creating modern web applications.
